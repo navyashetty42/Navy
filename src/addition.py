@@ -2,6 +2,8 @@
 # This is a test commit
 def add(a, b):
     return a + b
+abc= add(2,3)
+print(abc)
 
 def test_add():
     assert add(1, 2) == 3
